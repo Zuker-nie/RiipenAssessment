@@ -15,23 +15,44 @@
         <div class="row align-items-center">
              <!-- First box Image / Output Box -->
             <div class="col-sm-8 w-75 p-3">
-                <div class="shadow p-3 mb-5 bg-white rounded "> 
-                    <image src="uploadIndicator.png" class="img-thumbnail rounded mx-auto d-block" alt="Upload Picture"></image>
-                    <br>
-                    <div class="text-center">
-                        PNG, JPEG files only
+                <div class="shadow p-3 mb-5 bg-white rounded" > 
+                        <div id="results">
+                        <!-- <input type="image"  src="uploadIndicator.png" class="img-thumbnail rounded mx-auto d-block" alt="Upload Picture"> -->
+                        <!-- <input type="file" src="uploadIndicator.png" class="img-thumbnail rounded mx-auto d-block" alt="Upload Picture"> -->
+                            <div class="image-upload">
+                            <label for="file-input">
+                                <img src="uploadIndicator.png"/>
+                            </label>
+                            <input id="file-input" type="file" accept="image/jpeg, image/png"/>
+                            </div>
+                        <br>
+                        <div class="text-center">
+                            PNG, JPEG files only
+                        </div>
                     </div>
-                    
                 </div>
             </div>
             
             <!-- Group the 2 text boxes on the same column -->
             <div class="col-sm-4">
                 <!-- First Text Box -->
-                <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+                <div class="shadow p-3 mb-5 bg- rounded">
+                    <legend class="text-info">
+                        Text Box
+                    </legend>
+                    <hr class="hr-text">
+                    <p>
+                        
+                    </p>
+                
+                </div>
 
                 <!-- Second Text Box -->
-                <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <legend class="text-info">
+                        Text Box
+                    </legend>
+                </div>
             </div>
         </div>
     </div>

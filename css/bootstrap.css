@@ -79,6 +79,16 @@ hr {
   overflow: visible;
 }
 
+.image-upload>input {
+  display: none;
+  vertical-align: middle;
+  text-align: center;
+}
+.image-upload{
+  vertical-align: middle;
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -426,6 +436,17 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.hr-text{
+    background-color: yellow; 
+    height: 3px;
+    width: 100%;
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px);
+    padding: 0; 
+    margin: 0;
 }
 
 small,
